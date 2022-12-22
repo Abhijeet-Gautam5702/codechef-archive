@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+.wrapper {
+  border-radius: 5px;
+  margin: auto;
+  max-width: 500px;
+  background-color: #ffedb8;
+  box-shadow: 5px 5px 10px gray;
+  /* border: 2px solid black; */
+  padding: 10px;
+}
+
+/* HEADER SECTION */
+header {
+  background-color: #502d17;
+  /* border:2px solid violet; */
+  padding: 5px;
+  display: flex;
+}
+.logo-contnr {
+  /* border: 2px solid white; */
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: auto;
+}
+.cc-logo {
+  width: 40px;
+  height: auto;
+}
+#cc-title {
+  font-family: "Inter", sans-serif;
+}
+#archive-title {
+  font-family: "Anonymous Pro", monospace;
+}
+.src-code-contnr {
+  max-width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border:2px solid white; */
+  margin-left: auto;
+}
+.github-icon {
+  width: 30px;
+  height: auto;
+}
+.src-code-contnr > a {
+  font-size: 0.8em;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: "Anonymous Pro", monospace;
+}
+
+/* HERO SECTION */
+.hero {
+  /* border:2px solid black; */
+  margin: 20px 0px 10px 0px;
+}
+.input-contnr {
+  width: 100%;
+  /* border: 2px solid black; */
+}
+#prblm-title-input {
+  padding:12px 10px;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+}
+input:focus{
+  outline: none;
+}
+.btn-contnr {
+  display: flex;
+}
+.btn {
+  margin: 10px 10px 0px 0px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.save-btn {
+  background-color: #1893f8;
+}
+.reset-btn {
+  background-color: #ff0000;
+}
+
+/* PROBLEM LIST */
+.prblm-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid blue;
+
+  /* overflow-y: scroll; */
+}
+.prblm-card {
+  min-width: 200px;
+  margin: 5px;
+  border: 2px solid red;
+  background-color: white;
+  padding: 5px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.prblm-title {
+  font-family: "Anonymous Pro", monospace;
+}
+.ctrl-section {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  align-items: center;
+}
+.edit-contnr {
+  width: 30px;
+  padding: 0px 5px;
+  text-align: center;
+}
+
+.dlt-contnr {
+  width: 18px;
+  text-align: center;
+}
+.ctrl-icon {
+  width: 100%;
+  height: auto;
+  cursor:pointer;
+}
