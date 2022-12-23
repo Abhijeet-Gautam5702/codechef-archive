@@ -4,6 +4,9 @@
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
 }
+/* body{
+  max-height:300px;
+} */
 .wrapper {
   border-radius: 5px;
   margin: auto;
@@ -99,13 +102,14 @@ input:focus{
 
 /* PROBLEM LIST */
 .prblm-list {
+  max-height: 200px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
   border: 2px solid blue;
 
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
 }
 .prblm-card {
   min-width: 200px;

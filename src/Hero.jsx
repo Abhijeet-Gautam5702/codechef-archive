@@ -1,8 +1,10 @@
 import React from "react";
+import { saveData, clearData } from "./logic";
+
+export const saveBtn = document.querySelector(".save-btn");
 
 function Hero() {
   return (
-    // <h1>hello, world!</h1>
     <div className="hero">
       <div className="input-contnr">
         <label htmlFor="prblm-title-input">
@@ -15,8 +17,12 @@ function Hero() {
         </label>
       </div>
       <div className="btn-contnr">
-        <button className="save-btn btn">SAVE TAB</button>
-        <button className="reset-btn btn">RESET</button>
+        <button className="save-btn btn" onClick={saveData}>
+          SAVE TAB
+        </button>
+        <button className="reset-btn btn" onClick={clearData}>
+          RESET
+        </button>
       </div>
     </div>
   );
