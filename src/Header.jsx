@@ -12,11 +12,15 @@ function Header() {
           <h2 id="archive-title">Archive</h2>
         </div>
       </div>
-      <div className="src-code-contnr">
+      <div className="links-contnr">
         <img className="github-icon" src={githubIcon} alt="github" />
-        <a href="https://github.com/Abhijeet-Gautam5702" target="_blank">
+        <a
+          href="https://github.com/Abhijeet-Gautam5702/codechef-archive"
+          target="_blank"
+        >
           Source code
         </a>
+
       </div>
     </header>
   );

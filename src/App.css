@@ -4,28 +4,24 @@
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
 }
-body{
-  width:450px;
+body {
+  width: 450px;
 }
 .wrapper {
-  border-radius: 5px;
+  /* border-radius: 5px; */
   margin: auto;
-  /* max-width: 500px; */
   background-color: #ffedb8;
   box-shadow: 5px 5px 10px gray;
-  /* border: 2px solid black; */
   padding: 10px;
 }
 
 /* HEADER SECTION */
 header {
   background-color: #502d17;
-  /* border:2px solid violet; */
   padding: 5px;
   display: flex;
 }
 .logo-contnr {
-  /* border: 2px solid white; */
   color: white;
   display: flex;
   flex-direction: row;
@@ -42,22 +38,21 @@ header {
 #archive-title {
   font-family: "Anonymous Pro", monospace;
 }
-.src-code-contnr {
-  max-width: 50px;
+.links-contnr {
+  max-width: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  /* border:2px solid white; */
+  align-items: flex-end;
   margin-left: auto;
 }
 .github-icon {
   width: 30px;
   height: auto;
 }
-.src-code-contnr > a {
-  font-size: 0.8em;
-  text-align: center;
+.links-contnr a {
+  font-size: 0.7em;
+  text-align: right;
   color: white;
   font-weight: bold;
   font-family: "Anonymous Pro", monospace;
@@ -65,20 +60,18 @@ header {
 
 /* HERO SECTION */
 .hero {
-  /* border:2px solid black; */
   margin: 20px 0px 10px 0px;
 }
 .input-contnr {
   width: 100%;
-  /* border: 2px solid black; */
 }
 #prblm-title-input {
-  padding:12px 10px;
+  padding: 12px 10px;
   border: none;
   width: 100%;
   border-radius: 5px;
 }
-input:focus{
+input:focus {
   outline: none;
 }
 .btn-contnr {
@@ -102,25 +95,22 @@ input:focus{
 
 /* PROBLEM LIST */
 .prblm-list {
-  max-height: 200px;
+  max-height: 120px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  /* border: 2px solid blue; */
-  border-radius:5px;
-  /* box-shadow:0px -3px black; */
-  background-color:white;
+  border-radius: 5px;
+  background-color: white;
   overflow-y: scroll;
-  padding:5px 0px;
+  padding: 5px 0px;
 }
 .prblm-card {
   min-width: 30%;
   margin: 5px;
   border: 1.5px solid #296db8;
-  border-radius:5px;
+  border-radius: 5px;
   background-color: #f5fafe;
-  
   padding: 5px;
   padding-left: 10px;
   display: flex;
@@ -128,13 +118,13 @@ input:focus{
   justify-content: space-between;
   align-items: center;
 }
-.prblm-card a{
+.prblm-card a {
   text-decoration: none;
 }
 .prblm-title {
-  color:#296db8;
+  color: #296db8;
   font-family: "Anonymous Pro", monospace;
-  font-size:0.9rem;
+  font-size: 0.9rem;
 }
 .ctrl-section {
   display: flex;
@@ -150,36 +140,49 @@ input:focus{
 
 .dlt-contnr {
   width: 14px;
-  height:auto;
-  display:flex;
+  height: auto;
+  display: flex;
   align-items: center;
 }
-.dlt-btn{
+.dlt-btn {
   align-self: center;
 }
 .ctrl-icon {
   width: 100%;
   height: auto;
-  cursor:pointer;
+  cursor: pointer;
 }
 
-/* width */
+/* SCROLL BAR */
 ::-webkit-scrollbar {
   width: 7px;
 }
-
-/* Track */
 ::-webkit-scrollbar-track {
-  background: #ecf6ff; 
+  background: #ecf6ff;
 }
- 
-/* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #296db8; 
+  background: #296db8;
   border-radius: 10px;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #1b5ca1; 
+  background: #1b5ca1;
+}
+
+/* FOOTER SECTION */
+footer {
+  outline: 2px solid black;
+  margin-top: 10px;
+  padding: 3px;
+  font-size: 11px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+footer p {
+  font-family: "Anonymous Pro", monospace;
+}
+footer a {
+  color: yellow;
+  font-weight: bold;
+  font-family: "Anonymous Pro", monospace;
 }

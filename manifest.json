@@ -4,7 +4,11 @@
     "version": "1.0.0",
     "description": "Adds codechef problems to a list",
     "action": {
-        "default_popup": "index.html"
+        "default_popup": "index.html",
+        "default_icon": "assets/icon128.png"
+    },
+    "icons": {
+        "128": "assets/icon128.png"
     },
     "permissions": [
         "tabs"
