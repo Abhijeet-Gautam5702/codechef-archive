@@ -9,7 +9,7 @@ function Header() {
         <img className="cc-logo" src={ccLogo} alt="logo" />
         <div className="app-title">
           <p id="cc-title">CODECHEF</p>
-          <h2 id="archive-title" >Archive</h2>
+          <h2 id="archive-title">Archive</h2>
         </div>
       </div>
       <div className="src-code-contnr">
