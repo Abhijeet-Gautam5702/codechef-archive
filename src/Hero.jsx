@@ -6,18 +6,10 @@ function Hero(props) {
   //utility function : generate newItem object
   function saveUtil(e) {
     const hero = e.currentTarget.parentElement.parentElement;
-
     //get link to current tab, create new object and call handleSave()
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
       const tabURL = tabs[0].url;
-      /* 
-      TEST: if any website other than CODECHEF is opened, alert the user
-
-      if(website url doesn't contain codechef => alert ) :: 
-          tabURL.includes('codechef')
-      if(website is codechef but problem page is not opened => alert) ::
-          tabURL.includes('/problems/')
-      */
+      //alert user if wrong website/webpage is opened
       if (!tabURL.includes("codechef")) {
         window.alert("You are not on Codechef website");
       } else if (!tabURL.includes("/problems/")) {

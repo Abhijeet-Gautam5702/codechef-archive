@@ -48,11 +48,23 @@ function App() {
     );
   });
 
+  //function to give padding
+  const setPadding = (n, m) => {
+    return {
+      padding: `${n}px ${m}px`,
+    };
+  };
+
   return (
     <div className="wrapper">
       <Header />
       <Hero handleSave={saveCardElement} handleClear={clearData} />
-      <div className="prblm-list">{cardElements}</div>
+      <div
+        style={cardElements.length ? setPadding(5, 0) : setPadding(0, 0)}
+        className="prblm-list"
+      >
+        {cardElements}
+      </div>
       <Footer />
     </div>
   );
