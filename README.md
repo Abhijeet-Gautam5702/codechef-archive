@@ -20,7 +20,7 @@ The Codechef platform by default does not have any feature to bookmark problems.
 To deploy this project on Google Chrome, follow the given steps:
 
 - Download the project files from GitHub. 
-- Open terminal and run ```npm run build``` command. A production build (dist-folder) will be created.
+- Open your terminal, navigate to the project directory and run ```npm run build``` command. A production build (dist-folder) will be created.
 - Copy the manifest.json file to the dist-folder.
 - Open Google Chrome  > Settings > Extensions.
 - Click on Load Unpack button and select the dist-folder.
