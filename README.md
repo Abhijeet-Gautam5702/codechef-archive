@@ -9,7 +9,8 @@ Hello programmers!!
 The Codechef platform by default does not have any feature to bookmark problems. This chrome extension is specifically built for saving links to problems on Codechef platform. This could be a great tool to save your problems to review them later.
 
 ## Add extension to your chrome browser
-https://chrome.google.com/webstore/detail/codechef-archive/kflaacglajjmohfdfnchajbemkjjknde
+https://chrome.google.com/webstore/detail/codechef-archive/kflaacglajjmohfdfnchajbemkjjknde  
+Do not forget to rate the application 😃
 
 ## Features
 
