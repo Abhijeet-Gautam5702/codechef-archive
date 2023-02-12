@@ -4,9 +4,12 @@
 
 # Codechef Archive
 
+Hello programmers!!  
+
 The Codechef platform by default does not have any feature to bookmark problems. This chrome extension is specifically built for saving links to problems on Codechef platform. This could be a great tool to save your problems to review them later.
 
-
+## Add extension to your chrome browser
+https://chrome.google.com/webstore/detail/codechef-archive/kflaacglajjmohfdfnchajbemkjjknde
 
 ## Features
 
@@ -20,7 +23,7 @@ The Codechef platform by default does not have any feature to bookmark problems.
 To deploy this project on Google Chrome, follow the given steps:
 
 - Download the project files from GitHub. 
-- Open your terminal, navigate to the project directory and run ```npm run build``` command. A production build (dist-folder) will be created.
+- Open your terminal, navigate to the project directory (```cd <repository_name>```) and run ```npm install```, followed by ```npm run build``` command. A production build (dist-folder) will be created.
 - Copy the manifest.json file to the dist-folder.
 - Open Google Chrome  > Settings > Extensions.
 - Click on Load Unpack button and select the dist-folder.
